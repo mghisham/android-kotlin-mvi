@@ -15,4 +15,6 @@ Kotlin Flow, Jetpack Compose etc.
 * Retrofit - for Network Requests
 * Dark & Light Modes
 
-## Screenshots
+## Contributions
+* Hisham Mangalat 24th Sep 2023
+* Vipin 24th Sep 2023

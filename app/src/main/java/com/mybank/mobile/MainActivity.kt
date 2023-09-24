@@ -38,20 +38,20 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column {
 
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-    Spacer(modifier = Modifier.height(10.dp))
-
-        for (i in 1..10) {
         Text(
-            text = "Hello $i!",
+            text = "Hello $name!",
             modifier = modifier
         )
         Spacer(modifier = Modifier.height(10.dp))
+
+        for (i in 1..10) {
+            Text(
+                text = "Hello $i!",
+                modifier = modifier
+            )
+            Spacer(modifier = Modifier.height(10.dp))
+        }
     }
-}
 }
 
 @Preview(showBackground = true)

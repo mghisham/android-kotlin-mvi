@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Bank"
 include(":app")
- 
+include(":features:core")
+include(":features:dashboard")
+include(":features:cards")
